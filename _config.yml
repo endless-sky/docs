@@ -1,0 +1,38 @@
+name: Endless Sky - Software Architecture Docs
+baseurl: /docs
+markdown: kramdown
+
+exclude: ['README.md']
+
+sections: [
+	['Introduction', 'index'],
+	['Game Data', 'data', [
+		['Map', 'map'],
+		['Ships, etc.', 'ships'],
+		['Missions', 'missions'],
+		['Interface', 'interface'],
+		['Other data', 'other-data']]],
+	['Player', 'player'],
+	['Engine', 'engine', [
+		['Objects', 'objects'],
+		['AI', 'ai'],
+		['Collisions', 'collisions']]],
+	['User Interface', 'interface', [
+		['Layout', 'layout'],
+		['Main menu', 'main-menu'],
+		['Planet panels', 'planet-panels'],
+		['Map panels', 'map-panels'],
+		['Other panels', 'other-panels'],
+		['UI Elements', 'ui-elements']]],
+	['Resources', 'resources', [
+		['Text', 'text'],
+		['Audio', 'audio'],
+		['Sprites', 'sprites'],
+		['Shaders', 'shaders']]],
+	['Utilities', 'utilities', [
+		['Geometry', 'geometry'],
+		['Files', 'files'],
+		['Other', 'other-utilities']]],
+	['Class Index', 'class-index'],
+	['Data Index', 'data-index']
+]

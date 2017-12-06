@@ -1,0 +1,75 @@
+/* Global style. */
+body {
+	background: #f8f8f8;
+	color: #333333;
+	font-family: Ubuntu, Arial, sans-serif;
+}
+a:link, a:visited {
+	text-decoration: none;
+	color: #cc6600;
+}
+a:hover, a:active {
+	text-decoration: underline;
+	color: #ff9933;
+}
+
+/* Main column. */
+.main {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 150px;
+	margin-bottom: 50px;
+	width: 60%;
+	min-width: 600px;
+	max-width: 900px;
+}
+p {
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: 160%;
+}
+p+p {
+	text-indent: 2em;
+}
+.header {
+	text-align: left;
+}
+.centered {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+ul {
+	padding-left: 5em;
+	padding-right: 5em;
+}
+li p {
+	text-indent: 0;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+code {
+	background: #e8e8e8;
+}
+
+/* Sidebar (table of contents). */
+.sidebar {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	padding: 1em;
+	background: #eeeeee;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+}
+.sidebar p {
+	text-indent: 0;
+	margin-top: 0.5em;
+	margin-bottom: 0;
+	line-height: 130%;
+}
+.sidebar p.sub {
+	text-indent: 1em;
+	margin-top: 0;
+}

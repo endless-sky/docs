@@ -34,15 +34,24 @@ I considered to also allow ship properties to override (or modify by a multiplie
 
 ## Combat jump behaviours
 
-(System property) ```combat visibility```
+(System property)
+```
+combat visibility
+```
 Allow ships to arrive at the most appropriate distance for combat (based on their personality).
 When this is false, then all ships will arrive as if the system has no combat.
 When this is true, then fleets with "heroic" and other military personalities could arrive just beyond their maximum weapons range (allowing the long-range weapons to be used before short-range weapons are used).
 When this is true, then unarmed carriers could arrive outside weapons ranges whenever possible.
 When this is true, then fleets with merchant type of personalities could arrive at a large distance from the combat area (trying to avoid combat), based on their personalities.
 
-(Ship property) ```combat detection <value> ["link"] ["jump"]```
+(Ship property)
+```
+combat detection <value> ["link"] ["jump"]
+```
 The ability (strength) of a ship to detect combat and combatants (in general or for hyperlink or jump only). Related to the `combat visibility` system property.
 
-(Planet property) ```arrive focusable```
+(Planet property)
+```
+arrive focusable
+```
 Allow automatically aiming for this planet when arriving in the system.
